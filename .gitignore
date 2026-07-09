@@ -1,0 +1,35 @@
+# Ambiente virtual
+venv/
+env/
+.venv/
+
+# Dados (não versionar dataset)
+data/*.csv
+data/*.zip
+data/**/*.csv
+data/creditcardfraud/
+data/processed/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Modelos serializados
+*.pkl
+*.joblib
+
+# Credenciais / segredos
+.env
+*.json
+!package.json
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
