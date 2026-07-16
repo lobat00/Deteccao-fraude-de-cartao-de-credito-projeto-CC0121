@@ -10,9 +10,9 @@ Projeto Final — CC0121 (Inteligência Artificial) — UNIFAP — 2026.1
 
 | Nome Completo | Matrícula | Papel no projeto |
 |---|---|---|
-| Michel Batista do Monte | 2019007467 | [A PREENCHER] |
-| Thiago Lobato Rodrigues | 2021009558 | [A PREENCHER] |
-| Welliton Nunes Almeida | 2019010560 | [A PREENCHER] |
+| Michel Batista do Monte | 2019007467 | RELATÓRIO, SLIDE + PITCH|
+| Thiago Lobato Rodrigues | 2021009558 | ALGORITMO, RELATÓRIO, SLIDE + PITCH|
+| Welliton Nunes Almeida | 2019010560 | PROPOSTA PROJETO FINAL|
 
 ---
 
@@ -82,7 +82,8 @@ source venv/bin/activate      # Linux/Mac
 # venv\Scripts\activate       # Windows
 ```
 
-### 3. Instalar dependências
+### 3. Instalar 
+dependências
 
 ```bash
 pip install -r requirements.txt
@@ -126,9 +127,7 @@ Abre automaticamente em `http://localhost:8501`. Use os botões "Carregar exempl
 ---
 
 ## Uso de IA
-
-[A PREENCHER pela equipe — descrever com transparência como LLMs foram usados. Sugestão de estrutura abaixo, editar conforme o uso real de cada integrante:]
-
+ 
 - **Ferramenta utilizada:** Claude (Anthropic)
 - **Onde foi usada:**
   - Estruturação inicial do projeto (organização de pastas, `requirements.txt`, `.gitignore`)
@@ -137,7 +136,6 @@ Abre automaticamente em `http://localhost:8501`. Use os botões "Carregar exempl
   - Debug de erros específicos (ex: incompatibilidade de ordem de colunas no `predict()`, configuração de credenciais do Kaggle, problemas de `.gitignore`/tamanho de arquivo no GitHub)
   - Redação e organização deste README
 - **O que a equipe decidiu por conta própria:** escolha do dataset, escolha entre os modelos comparados (Random Forest sobre XGBoost, priorizando F1 sobre AUC-ROC marginal), estratégia de balanceamento (SMOTE 50/50), interpretação dos resultados e validação das métricas contra a meta da proposta.
-- **O que não foi usado:** [descrever, se aplicável — ex: geração de texto do relatório final sem revisão, etc.]
 
 ---
 
@@ -162,7 +160,7 @@ credit-card-fraud-detection/
 ## Entregáveis
 
 - [x] Repositório GitHub com código, notebooks e README
-- [ ] Relatório técnico (4-8 páginas)
+- [x] Relatório técnico (4-8 páginas)
 - [x] Aplicativo Streamlit funcional
 
 ## Datas
